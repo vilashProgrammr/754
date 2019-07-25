@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host 0.0.0.0 --disable-host-check",
-    "start-no-reload": "ng serve --live-reload false",
+    "start": "ng serve  --public-host=0.0.0.0/CIM4SVYwCD1564036_op/sockjs-node --host 0.0.0.0 --port 4200 --disable-host-check --live-reload true",
+    "start-no-reload": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
@@ -13,7 +13,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular-devkit/core": "^7.1.0",
+    "@angular-devkit/core": "^7.3.9",
     "@angular/animations": "^5.1.3",
     "@angular/common": "^5.1.3",
     "@angular/compiler": "^5.1.3",
@@ -23,12 +23,12 @@
     "@angular/platform-browser": "^5.1.3",
     "@angular/platform-browser-dynamic": "^5.1.3",
     "@angular/router": "^5.1.3",
-    "bootstrap": "^4.0.0-beta.3",
-    "core-js": "^2.4.1",
+    "bootstrap": "^4.3.1",
+    "core-js": "^2.6.9",
     "ngx-bootstrap": "^2.0.0-rc.0",
     "rxjs": "^5.5.2",
     "weather-underground-icons": "^1.0.0",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.29"
   },
   "devDependencies": {
     "@angular/cli": "1.6.3",
